@@ -1,0 +1,89 @@
+.navbar-brand {
+  margin-left: 20px;
+  font-size: 26px !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  color: #A21F1E !important;
+}
+
+#header {
+  background-color: black !important;
+}
+
+.navbar-nav {
+  margin-right: 20px;
+}
+
+.navbar-nav a.nav-link {
+  color: #ffffff;
+
+}
+
+.navbar-nav a.nav-link.active {
+  color: #A21f1e !important;
+
+}
+
+
+.navbar-nav a.nav-link:hover {
+  color: #A21f1e !important;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+body {
+  /* background-color: black !important; */
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important; */
+}
+
+.full-screen-image {
+  background-image: url('/images/marvel-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+}
+
+.blockquote {
+  color: white;
+  font-size: 25px !important;
+}
+
+h1 {
+  color: #A21F1E !important;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+}
+
+.card-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+}
+
+.card:hover {
+  background-image: linear-gradient(to bottom right, #A21F1E, #670707);
+  color: white;
+}
+
+.card:hover .card-overlay {
+  top: 0;
+}
+
+.book-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
