@@ -33,11 +33,6 @@
   background-color: black !important;
 }
 
-body {
-  /* background-color: black !important; */
-  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important; */
-}
-
 .full-screen-image {
   background-image: url('/images/marvel-banner.jpg');
   background-size: cover;
@@ -55,35 +50,21 @@ h1 {
   color: #A21F1E !important;
 }
 
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-}
 
-.card {
-  overflow: hidden;
-  position: relative;
-}
-
-.card-overlay {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  padding: 20px;
-}
 
 .card:hover {
   background-image: linear-gradient(to bottom right, #A21F1E, #670707);
   color: white;
-}
-
-.card:hover .card-overlay {
-  top: 0;
+  transition: background-image 0.7s ease, color 0.9s ease;
+  transform: scale(1.05);
 }
 
 .book-link {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+}
+
+#footer {
+  text-align: center;
 }

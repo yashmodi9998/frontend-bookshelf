@@ -1,7 +1,10 @@
 function Footer(){
     return (
     <footer id="footer">
-        <div>&copy; Yash Modi, 2024.</div>
+        
+        <div>
+        <hr/>
+            &copy; reserved by Yash Modi, 2024.</div>
     </footer>
         );
 }
