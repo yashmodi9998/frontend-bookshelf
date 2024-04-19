@@ -55,3 +55,5 @@ Marvel Books and Characters is a project that lists Marvel books and characters.
    npm run dev
    ```
 
+For the backend/API setup, please refer to the README in the backend repository.
+
