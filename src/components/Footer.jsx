@@ -4,7 +4,7 @@ function Footer(){
         
         <div>
         <hr/>
-            &copy; reserved by Yash Modi, 2024.</div>
+            &copy; All rights reserved by Yash Modi, 2024.</div>
     </footer>
         );
 }

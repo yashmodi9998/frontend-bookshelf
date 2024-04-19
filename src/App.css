@@ -50,6 +50,9 @@ h1 {
   color: #A21F1E !important;
 }
 
+.navbar-toggler-icon {
+  background-color: #A21F1E !important;
+}
 
 
 .card:hover {

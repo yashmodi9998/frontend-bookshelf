@@ -11,12 +11,15 @@ function App( ) {
   return (
     <div className="page">
       <BrowserRouter>
+      {/* called header file */}
         <Header />
+        {/* Routes configuration  */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/books" element={<Books />} />
             <Route path="/characters" element={<Characters />} />
           </Routes>
+          {/* called footer */}
         <Footer />
       </BrowserRouter>
     </div>
