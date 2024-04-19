@@ -1,7 +1,7 @@
 
 # Marvel Books and Characters
 
-Marvel Books and Characters is a project that lists out Marvel books and characters. It consists of a frontend built with React.js and a backend/API created with Node.js.
+Marvel Books and Characters is a project that lists Marvel books and characters. It consists of a frontend built with React.js and a backend/API created with Node.js.
 
 ## Live Demo
 
@@ -54,8 +54,4 @@ Marvel Books and Characters is a project that lists out Marvel books and charact
    ```bash
    npm run dev
    ```
-
-5. Open your browser and go to `http://localhost:3000` to view the application.
-
-For the backend/API setup, please refer to the README in the backend repository.
 
